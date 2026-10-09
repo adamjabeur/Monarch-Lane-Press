@@ -3,8 +3,8 @@
 // the form's action looks like
 // https://assets.mailerlite.com/jsonp/ACCOUNT_ID/forms/FORM_ID/subscribe
 const MAILERLITE = {
-  accountId: "",
-  formId: "",
+  accountId: "2699677",
+  formId: "200889858438202659",
 };
 
 document.querySelectorAll("form[data-signup]").forEach((form) => {
