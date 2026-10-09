@@ -215,6 +215,20 @@ section + section {
   box-shadow: 0 1px 0 #000, 14px 18px 0 -6px #e9edf1;
   flex-shrink: 0;
 }
+.cover .c-num {
+  font-stretch: 112%;
+  font-weight: 800;
+  font-size: clamp(2rem, 4.6vw, 3rem);
+  line-height: 0.95;
+  margin-bottom: 0.15em;
+}
+.cover .c-big {
+  font-stretch: 112%;
+  font-weight: 800;
+  font-size: clamp(1.45rem, 3.2vw, 2.1rem);
+  line-height: 1;
+  margin-bottom: 0.3em;
+}
 .cover .c-label {
   align-self: flex-start;
   background: var(--gold);
@@ -260,6 +274,12 @@ section + section {
 }
 .cover.small .c-title {
   font-size: 0.6rem;
+}
+.cover.small .c-num {
+  font-size: 1.3rem;
+}
+.cover.small .c-big {
+  font-size: 0.95rem;
 }
 .cover.small .c-sub,
 .cover.small .c-author {
@@ -605,6 +625,12 @@ section + section {
   }
   .cover.small .c-title {
     font-size: 0.45rem;
+  }
+  .cover.small .c-num {
+    font-size: 0.95rem;
+  }
+  .cover.small .c-big {
+    font-size: 0.7rem;
   }
   .log thead {
     display: none;
