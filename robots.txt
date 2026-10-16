@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /claude/files/
+Disallow: /retirement/kit/
+Disallow: /retirement/files/
